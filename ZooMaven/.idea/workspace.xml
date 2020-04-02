@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="main" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c854163-7442-4e42-96b4-91e05c941eae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalDeserialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/TimeOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/TimeOfDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Zoo.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\pavel\IdeaProjects\new_zoo\ZooMaven\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="main" pattern="src:com.sberbank.zoo.Animal||src:com.sberbank.zoo.Action||src:com.sberbank.zoo.AnimalType||src:com.sberbank.zoo.AnimalState||src:com.sberbank.zoo.AnimalDeserialize||src:com.sberbank.zoo.Carnivore||src:com.sberbank.zoo.Herbivore||src:com.sberbank.zoo.Observable||src:com.sberbank.zoo.Observer||src:com.sberbank.zoo.Time||src:com.sberbank.zoo.TimeOfDay||src:com.sberbank.zoo.Watcher||src:com.sberbank.zoo.Weather||src:com.sberbank.zoo.Zoo" />
+  </component>
+  <component name="ProjectId" id="1Zunj42mgm4pCKzH6bot5sjxPsV" />
+  <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.Main" />
+      <module name="ZooMaven" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;zoo.json&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooMaven" />
+      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.AnimalTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooMaven" />
+      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.MainTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooMaven" />
+      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.TimeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WatcherTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooMaven" />
+      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.WatcherTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooMaven" />
+      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.WeatherTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooMaven" />
+      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.ZooTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.TimeTest" />
+      <item itemvalue="JUnit.WatcherTest" />
+      <item itemvalue="JUnit.WeatherTest" />
+      <item itemvalue="JUnit.ZooTest" />
+      <item itemvalue="JUnit.AnimalTest" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c854163-7442-4e42-96b4-91e05c941eae" name="Default Changelist" comment="" />
+      <created>1585697977202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585697977202</updated>
+      <workItem from="1585697978678" duration="3253000" />
+      <workItem from="1585734386020" duration="37821000" />
+      <workItem from="1585816364099" duration="5441000" />
+      <workItem from="1585826377945" duration="91000" />
+      <workItem from="1585827884952" duration="16268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="gson" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ZooMaven$Main.ic" NAME="Main Coverage Results" MODIFIED="1585766220193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

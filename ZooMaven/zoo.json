@@ -1,0 +1,26 @@
+{
+	"Herbivore":[
+		{
+			"type":"zebra",
+			"count":3,
+			"state":"calm"
+		},
+		{
+			"type":"elephant",
+			"count":2,
+			"state":"calm"
+		}
+	],
+	"Carnivore":[
+		{
+			"type":"bear",
+			"count":2,
+			"state":"calm"
+		},
+		{
+			"type":"lion",
+			"count":4,
+			"state":"calm"
+		}
+	]
+}
