@@ -31,15 +31,15 @@ public class Time {
      * Метод меняет время и производит оповещение "наблюдателей".
      * @param observables объект класса {@link Observable}. По средствам данного объекта происходит оповещение
      *                    "наблюдателей" о смене времени;
-     * @param _time объект {@link TimeOfDay} содержит время. Текущее время будет заменено на время из _time.
+     * @param in_time объект {@link TimeOfDay} содержит время. Текущее время будет заменено на время из _time.
      * */
-    public static void ChangeTime(List<Observable> observables, TimeOfDay _time)
+    public static void ChangeTime(List<Observable> observables, TimeOfDay in_time)
     {
-        if (_time == null)
+        if (in_time == null)
         {
             throw new NullPointerException();
         }
-        time = _time;
+        time = in_time;
         for (Observable observable : observables)
         {
             observable.NotifyObservers(Action.interpret(time));

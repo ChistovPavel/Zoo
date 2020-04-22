@@ -10,14 +10,14 @@ public class Watcher {
 
     /**
      * Конструктор класса {@link Watcher}.
-     * @param zoo объект {@link Zoo}, за которым следит смотритель {@link Watcher}.
+     * @param in_zoo объект {@link Zoo}, за которым следит смотритель {@link Watcher}.
      * */
-    public Watcher(Zoo zoo) {
-        if (zoo == null)
+    public Watcher(Zoo in_zoo) {
+        if (in_zoo == null)
         {
             throw new NullPointerException();
         }
-        this.zoo = zoo;
+        this.zoo = in_zoo;
     }
     /**
      * Покормить животных.

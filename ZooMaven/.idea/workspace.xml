@@ -7,20 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c854163-7442-4e42-96b4-91e05c941eae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalDeserialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/TimeOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/TimeOfDay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Weather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -69,10 +63,12 @@
     <scope name="main" pattern="src:com.sberbank.zoo.Animal||src:com.sberbank.zoo.Action||src:com.sberbank.zoo.AnimalType||src:com.sberbank.zoo.AnimalState||src:com.sberbank.zoo.AnimalDeserialize||src:com.sberbank.zoo.Carnivore||src:com.sberbank.zoo.Herbivore||src:com.sberbank.zoo.Observable||src:com.sberbank.zoo.Observer||src:com.sberbank.zoo.Time||src:com.sberbank.zoo.TimeOfDay||src:com.sberbank.zoo.Watcher||src:com.sberbank.zoo.Weather||src:com.sberbank.zoo.Zoo" />
   </component>
   <component name="ProjectId" id="1Zunj42mgm4pCKzH6bot5sjxPsV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../substr_bit" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -197,6 +193,13 @@
       <workItem from="1585816364099" duration="5441000" />
       <workItem from="1585826377945" duration="91000" />
       <workItem from="1585827884952" duration="16268000" />
+      <workItem from="1587210517678" duration="34000" />
+      <workItem from="1587220840395" duration="35000" />
+      <workItem from="1587242579909" duration="2159000" />
+      <workItem from="1587280706542" duration="2523000" />
+      <workItem from="1587328846376" duration="1844000" />
+      <workItem from="1587404892682" duration="1681000" />
+      <workItem from="1587587064382" duration="681000" />
     </task>
     <servers />
   </component>
@@ -208,7 +211,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

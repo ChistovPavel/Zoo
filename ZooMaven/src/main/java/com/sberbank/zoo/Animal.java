@@ -13,13 +13,13 @@ public class Animal implements Observer{
     /**
      * Конструктор класса {@link Animal}.
      * При создании животоного, состояние всегда будет {@link AnimalState#calm}.
-     * @param type вид животного (например Лев, тигр, зебра, слон);
-     * @param count количество животоных определенного типа.
+     * @param in_type вид животного (например Лев, тигр, зебра, слон);
+     * @param in_count количество животоных определенного типа.
      */
-    public Animal (String type, Integer count)
+    public Animal (String in_type, Integer in_count)
     {
-        this.type = type;
-        this.count = count;
+        this.type = in_type;
+        this.count = in_count;
         this.state = AnimalState.calm;
     }
 

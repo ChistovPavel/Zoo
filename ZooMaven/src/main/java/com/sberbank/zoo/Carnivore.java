@@ -43,14 +43,11 @@ public class Carnivore extends Animal {
     @Override
     public void reaction(Observable observable, Action action) {
         super.reaction(observable, action);
-        switch (action) {
-            case feed_carnivore:
-                observable.NotifyObservers(Action.noise);
-                this.eat();
-                break;
-            case noise:
-                if (this.getState() != AnimalState.noise) this.noise();
-                break;
+
+        if (((action == Action.feed_carnivore) || (action == Action.noise)) && (this.getState() != AnimalState.noise))
+        {
+            this.noise();
+            observable.NotifyObservers(Action.noise);
         }
     }
 }

@@ -18,23 +18,27 @@ public enum Action {
     night;
 
     /***
-     * Преобразование в объекта {@link TimeOfDay} или объекта {@link AnimalType} к объекту {@link Action}.
-     * @param obj объект {@link TimeOfDay} или объект {@link AnimalType}.
+     * Преобразование в объекта {@link AnimalType} к объекту {@link Action}.
+     * @param animalType объект {@link AnimalType}.
      * @return объект {@link Action}, если на входе был получен объект {@link TimeOfDay} или {@link AnimalType}, и null,
      *         если был получен какой-либо другой объект.
      */
-    public static Action interpret(Object obj)
+    public static Action interpret(AnimalType animalType)
     {
-        if (obj instanceof TimeOfDay)
-        {
-            if (obj == TimeOfDay.Sun) return sun;
-            return night;
-        }
-        else if (obj instanceof AnimalType)
-        {
-            if (obj == AnimalType.Herbivore) return feed_herbivore;
-            return feed_carnivore;
-        }
-        return null;
+        if (animalType == AnimalType.Herbivore) return feed_herbivore;
+        return feed_carnivore;
     }
+
+    /***
+     * Преобразование объекта {@link TimeOfDay} к объекту {@link Action}.
+     * @param timeOfDay объект {@link TimeOfDay}.
+     * @return объект {@link Action}, если на входе был получен объект {@link TimeOfDay} или {@link AnimalType}, и null,
+     *         если был получен какой-либо другой объект.
+     */
+    public static Action interpret(TimeOfDay timeOfDay)
+    {
+        if (timeOfDay == TimeOfDay.Sun) return sun;
+        return night;
+    }
+
 }
