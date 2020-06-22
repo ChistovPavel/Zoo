@@ -1,20 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_TEST_SOURCES" value="false" />
-    <option name="SCOPE_TYPE" value="8" />
-    <option name="CUSTOM_SCOPE_NAME" value="main" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c854163-7442-4e42-96b4-91e05c941eae" name="Default Changelist" comment="">
+    <list default="true" id="ab5a26dc-bc56-4cd9-9da4-b29ec658bbbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animal/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AnimalDeserialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animal/AnimalState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animal/AnimalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animal/Carnivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animal/Herbivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/TimeOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/TimeOfDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Watcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/Watcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/Weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sberbank/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sberbank/zoo/tests/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zoo/tests/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sberbank/zoo/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zoo/tests/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sberbank/zoo/tests/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zoo/tests/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sberbank/zoo/tests/WatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zoo/tests/WatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sberbank/zoo/tests/WeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zoo/tests/WeatherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sberbank/zoo/tests/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zoo/tests/ZooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ZooMaven.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Animal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/AnimalDeserialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/AnimalState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/AnimalType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Carnivore$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Carnivore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Herbivore$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Herbivore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/TimeOfDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Watcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Weather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sberbank/zoo/Zoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sberbank/zoo/tests/AnimalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sberbank/zoo/tests/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sberbank/zoo/tests/TimeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sberbank/zoo/tests/WatcherTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sberbank/zoo/tests/WeatherTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sberbank/zoo/tests/ZooTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Animal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/AnimalDeserialize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/AnimalState.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/AnimalType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Carnivore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Herbivore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Observable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Observer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/TimeOfDay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Watcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Weather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/Zoo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Animal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/AnimalDeserialize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/AnimalState.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/AnimalType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Carnivore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Herbivore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Observable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Observer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/TimeOfDay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Watcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Weather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/class-use/Zoo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/com/sberbank/zoo/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/member-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/package-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javadoc/type-search-index.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,64 +155,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\pavel\IdeaProjects\new_zoo\ZooMaven\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="NamedScopeManager">
-    <scope name="main" pattern="src:com.sberbank.zoo.Animal||src:com.sberbank.zoo.Action||src:com.sberbank.zoo.AnimalType||src:com.sberbank.zoo.AnimalState||src:com.sberbank.zoo.AnimalDeserialize||src:com.sberbank.zoo.Carnivore||src:com.sberbank.zoo.Herbivore||src:com.sberbank.zoo.Observable||src:com.sberbank.zoo.Observer||src:com.sberbank.zoo.Time||src:com.sberbank.zoo.TimeOfDay||src:com.sberbank.zoo.Watcher||src:com.sberbank.zoo.Weather||src:com.sberbank.zoo.Zoo" />
-  </component>
-  <component name="ProjectId" id="1Zunj42mgm4pCKzH6bot5sjxPsV" />
+  <component name="ProjectId" id="1dh9sLYSkOfOB8av8EzEDve1vKK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../substr_bit" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,113 +176,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.Main" />
-      <module name="ZooMaven" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Zoo-maven" />
       <option name="PROGRAM_PARAMETERS" value="&quot;zoo.json&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit">
-      <module name="ZooMaven" />
-      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.AnimalTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit">
-      <module name="ZooMaven" />
-      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.MainTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeTest" type="JUnit" factoryName="JUnit">
-      <module name="ZooMaven" />
-      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.TimeTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WatcherTest" type="JUnit" factoryName="JUnit">
-      <module name="ZooMaven" />
-      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.WatcherTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherTest" type="JUnit" factoryName="JUnit">
-      <module name="ZooMaven" />
-      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.WeatherTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZooTest" type="JUnit" factoryName="JUnit">
-      <module name="ZooMaven" />
-      <option name="PACKAGE_NAME" value="com.sberbank.zoo.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.sberbank.zoo.tests.ZooTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.TimeTest" />
-      <item itemvalue="JUnit.WatcherTest" />
-      <item itemvalue="JUnit.WeatherTest" />
-      <item itemvalue="JUnit.ZooTest" />
-      <item itemvalue="JUnit.AnimalTest" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c854163-7442-4e42-96b4-91e05c941eae" name="Default Changelist" comment="" />
-      <created>1585697977202</created>
+      <changelist id="ab5a26dc-bc56-4cd9-9da4-b29ec658bbbd" name="Default Changelist" comment="" />
+      <created>1592866663590</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585697977202</updated>
-      <workItem from="1585697978678" duration="3253000" />
-      <workItem from="1585734386020" duration="37821000" />
-      <workItem from="1585816364099" duration="5441000" />
-      <workItem from="1585826377945" duration="91000" />
-      <workItem from="1585827884952" duration="16268000" />
-      <workItem from="1587210517678" duration="34000" />
-      <workItem from="1587220840395" duration="35000" />
-      <workItem from="1587242579909" duration="2159000" />
-      <workItem from="1587280706542" duration="2523000" />
-      <workItem from="1587328846376" duration="1844000" />
-      <workItem from="1587404892682" duration="1681000" />
-      <workItem from="1587587064382" duration="681000" />
+      <updated>1592866663590</updated>
+      <workItem from="1592866665993" duration="67000" />
     </task>
     <servers />
   </component>
@@ -211,22 +214,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="gson" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ZooMaven$Main.ic" NAME="Main Coverage Results" MODIFIED="1585766220193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
